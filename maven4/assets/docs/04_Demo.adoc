@@ -20,5 +20,5 @@ image::../images/Demo04.png[Maven Project, 300, float="right", align="center"]
 |===
 | link:03_Demo.adoc[◀️ Demo 3]
 | link:Demo.adoc[All Demos 🔼]
-| link:../../Outcome[Outcome ▶️]
+| link:../../Outcome.adoc[Outcome ▶️]
 |===
