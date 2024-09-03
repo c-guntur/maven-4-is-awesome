@@ -7,13 +7,13 @@
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img width="500" src="assets/images/ApacheMavenMascot.png">
+  <img width="500" src="maven4/assets/images/ApacheMavenMascot.png">
 </p>
 ++++
 endif::[]
 
 ifndef::env-github[]
-image::assets/images/ApacheMavenMascot.png[Apache Maven Mascot, 500, align=center]
+image::maven4/assets/images/ApacheMavenMascot.png[Apache Maven Mascot, 500, align=center]
 endif::[]
 
 Demo of some key differences between *Apache Maven 3.9.6* and *Apache Maven 4.0.0-beta-3*.
