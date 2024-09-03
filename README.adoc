@@ -17,12 +17,3 @@ image::maven4/assets/images/ApacheMavenMascot.png[Apache Maven Mascot, 500, alig
 endif::[]
 
 Demo of some key differences between *Apache Maven 3.9.6* and *Apache Maven 4.0.0-beta-3*.
-
-'''
-
-[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
-|===
-| About: link:assets/docs/AboutChandraGuntur.adoc[◀️ Chandra Guntur]
-| link:assets/docs/ProjectStructure.adoc[Project Structure 🔼]
-| link:assets/docs/Demo.adoc[All Demos ▶️]
-|===
