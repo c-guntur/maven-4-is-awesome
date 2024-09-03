@@ -1,0 +1,13 @@
+= Maven 3 - BOM Packaging
+
+
+- Apache Maven has no “bom” packaging.
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../Agenda.adoc[Pain Points 🔼]
+| &nbsp;
+|===

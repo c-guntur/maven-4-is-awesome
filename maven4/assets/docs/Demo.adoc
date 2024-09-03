@@ -1,0 +1,26 @@
+= A few demos with Apache Maven 3.x and 4.x
+
+== 1. Build an aggregator and its child modules
+Build `child3`, `child31` and `child32` +
+Link: link:01_Demo.adoc[Demo 1]
+
+== 2. Build an aggregator and not its child modules
+Build only `child3` +
+Link: link:02_Demo.adoc[Demo 2]
+
+== 3. Build module plus #dependencies# outside of current scope
+Build `child32`, `child3`, `child2`, `child1`, `root` +
+Link: link:03_Demo.adoc[Demo 3]
+
+== 4. Build module plus #dependents# outside of current scope
+Build `child1`, `child2`, `child32` +
+Link: link:04_Demo.adoc[Demo 4]
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../README.adoc[README 🔼]
+| &nbsp;
+|===

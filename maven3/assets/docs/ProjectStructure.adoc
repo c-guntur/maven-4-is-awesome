@@ -1,0 +1,26 @@
+[.text-center]
+= Project Structure
+
+:figure-caption!:
+:toc:
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width="870" src="../images/MavenMultimodule.png">
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+image::../images/MavenMultimodule.png[Apache Maven Mascot, 870, align=center]
+endif::[]
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../README.adoc[README 🔼]
+| &nbsp;
+|===

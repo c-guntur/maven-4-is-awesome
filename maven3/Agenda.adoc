@@ -1,0 +1,28 @@
+= ➡️ What we know in Apache Maven 3
+
+== A few issues with Apache Maven 3.x
+
+=== 🛑 1️⃣ Maven 3: It is painful to maintain versions in multi-module projects.
+Link: link:assets/docs/Maven3_PainPoint1.adoc[Pain Point 1]
+
+=== 🛑 2️⃣ Maven 3: Has no implicit way to separate build info from consumer info.
+Link: link:assets/docs/Maven3_PainPoint2.adoc[Pain Point 2]
+
+=== 🛑 3️⃣ Maven 3: Handling versions of (dependency) sibling modules is a chore!
+Link: link:assets/docs/Maven3_PainPoint3.adoc[Pain Point 3]
+
+=== 🛑 4️⃣ Maven 3: We developers are lazy! We use default versions for plugins.
+Link: link:assets/docs/Maven3_PainPoint4.adoc[Pain Point 4]
+
+=== 🛑 5️⃣ Maven 3: No explicit Bill-of-Materials POM packaging!
+Link: link:assets/docs/Maven3_PainPoint5.adoc[Pain Point 5]
+
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:README.adoc[README 🔼]
+| &nbsp;
+|===

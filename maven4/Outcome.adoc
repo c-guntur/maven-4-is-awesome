@@ -1,0 +1,29 @@
+= ➡️ What we see in Apache Maven 4
+
+== Apache Maven 4.x new features
+
+
+=== ✅ 1️⃣ Maven 4: Version support much improved!
+    🛑 1️⃣ Maven 3: It is painful to maintain versions in multi-module projects.
+
+=== ✅ 2️⃣ Maven 4: Two separate POM files are generated!
+    🛑 2️⃣ Maven 3: Has no implicit way to separate build info from consumer info.
+
+=== ✅ 3️⃣ Maven 4: Implicit versions for (dependency) sibling modules.
+    🛑 3️⃣ Maven 3: Handling versions of (dependency) sibling modules is a chore!
+
+=== ✅ 4️⃣ Maven 4: Maven issues warnings when plugin versions are not declared.
+    🛑 4️⃣ Maven 3: We developers are lazy! We use default versions for plugins.
+
+=== ✅ 5️⃣ Maven 4: Introduces the “bom” packaging option.
+    🛑 5️⃣ Maven 3: No explicit Bill-of-Materials POM packaging!
+
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:README.adoc[README 🔼]
+| &nbsp;
+|===

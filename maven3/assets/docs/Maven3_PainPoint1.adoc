@@ -1,0 +1,24 @@
+= Maven 3 - Version Management
+
+No built-in support to propagate new version to child modules
+
+- *Codehaus* offers the `flatten-maven-plugin` +
+  The flatten-maven-plugin has _issues around profile interpolation_ but _requires including the third-party plugin_ +
+  https://maven.apache.org/maven-ci-friendly.html +
+&nbsp;
+
+- *Outbrain* offers a `ci-friendly-flatten-maven-plugin` +
+  This plugin _solves the issue with profile interpolation_ but _requires including the third-party plugin_ +
+  https://github.com/outbrain/ci-friendly-flatten-maven-plugin +
+&nbsp;
+
+- Both plugins use a revision property to set version values
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../Agenda.adoc[Pain Points 🔼]
+| &nbsp;
+|===

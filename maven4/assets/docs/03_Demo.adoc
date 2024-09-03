@@ -1,0 +1,24 @@
+= Demo 3
+
+== Build module plus #dependencies# outside of current scope
+
+=== Build `child32`, `child3`, `child2`, `child1`, `root`
+
+=== Maven 3
+
+image::../images/Demo03.png[Maven Project, 300, float="right", align="center"]
+
+  NOT POSSIBLE IN MAVEN 3
+
+=== Maven 4
+
+  cd child3/child32 && mvn compile -am
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| link:02_Demo.adoc[◀️ Demo 2]
+| link:Demo.adoc[All Demos 🔼]
+| link:04_Demo.adoc[Demo 4 ▶️]
+|===

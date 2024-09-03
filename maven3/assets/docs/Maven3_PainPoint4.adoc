@@ -1,0 +1,17 @@
+= Maven 3 - Plugin version best practices
+
+
+- Apache Maven provides default versions of some plugins to use. +
+&nbsp;
+- Best practice is to always set exact versions of plugins +
+&nbsp;
+- In Apache Maven 3, there is no way to identify if a default version is in use.
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../Agenda.adoc[Pain Points 🔼]
+| &nbsp;
+|===

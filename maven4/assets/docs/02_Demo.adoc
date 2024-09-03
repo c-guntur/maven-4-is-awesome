@@ -1,0 +1,24 @@
+= Demo 2
+
+== Build an aggregator and not its child modules
+
+=== Build only `child3`
+
+=== Maven 3
+
+image::../images/Demo02.png[Maven Project, 300, float="right", align="center"]
+
+  mvn clean compile -pl child3
+
+=== Maven 4
+
+  mvn clean compile -pl child3 -N
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| link:01_Demo.adoc[◀️ Demo 1]
+| link:Demo.adoc[All Demos 🔼]
+| link:03_Demo.adoc[Demo 3 ▶️]
+|===

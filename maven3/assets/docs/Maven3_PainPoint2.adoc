@@ -1,0 +1,19 @@
+= Maven 3 - Separation of build & consumer
+
+- POM contains build information - which is not relevant to a consumer! +
+&nbsp;
+
+- Building an artifact produces a .pom file which contains irrelevant info +
+&nbsp;
+
+- Once again both third party plugins come in handy: +
+*Codehaus* : _flatten-maven-plugin_ +
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../Agenda.adoc[Pain Points 🔼]
+| &nbsp;
+|===

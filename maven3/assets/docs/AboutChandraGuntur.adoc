@@ -1,0 +1,25 @@
+= About Chandra Guntur
+
+== &nbsp;
+image::../images/CVG_Mugshot.png[Chandra Guntur, 150, float="right", align="center"]
+=== 🔸 Java Champion
+=== 🔸 Programming in Java since 1998
+=== 🔸 _Apache Maven user and later contributor_ since 2004
+=== 🔸 JUG Leader link:https://twitter.com/GardenStateJUG[@GardenStateJUG] and link:https://twitter.com/nyjavasig[@NYJavaSIG]
+image::../images/CVG_Caricature.png[Chandra Guntur, 150, float="right", align="center"]
+=== 🔸 Ardent blogger and tweeter
+=== 🔸 Website: https://cguntur.me
+=== 🔸 Github: https://github.com/c-guntur
+=== 🔸 Twitter: https://twitter.com/cguntur[@CGuntur]
+=== 🔸 Saganist (with a ‘g’ not a ‘t’) 😈
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../README.adoc[README 🔼]
+| &nbsp;
+|===
+
+

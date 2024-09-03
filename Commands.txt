@@ -1,0 +1,49 @@
+Build an aggregator and its child modules
+	Maven 3
+		Failures
+			mvn clean compile -pl child3
+			mvn clean compile -pl child3,child31,child32
+			mvn clean compile -pl child3 -am
+		Success
+			mvn clean compile -pl child3 -amd
+			mvn clean compile -pl child3 --also-make-dependents
+			mvn clean compile -pl child3,child3/child31,child3/child32
+
+	Maven 4
+		Success
+			mvn clean compile -pl child3
+
+
+
+Build an aggregator and not its child modules
+	Maven 3
+		Success
+			mvn clean compile -pl child3
+
+	Maven 4
+		Success
+			mvn clean compile -pl child3 -N
+
+
+
+Build a module and also make dependencies outside of current scope
+	Maven 3
+		Failure
+			NOT POSSIBLE
+
+	Maven 4
+		Success
+			cd child3/child32 && mvn compile -am
+
+
+
+Build a module and also make dependencies outside of current scope
+	Maven 3
+		Failure
+			NOT POSSIBLE
+
+	Maven 4
+		Success
+			cd child1 && mvn compile -amd
+
+

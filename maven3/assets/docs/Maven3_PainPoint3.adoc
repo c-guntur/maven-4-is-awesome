@@ -1,0 +1,21 @@
+= Maven 3 - Dependency Version Management
+
+
+- Many multi-module projects have sibling dependencies +
+&nbsp;
+
+- Managing versions of such can require using the `project.version` property +
+&nbsp;
+
+- Limits testing to
+either using most recent version of all siblings
+or hardcoding versions during testing
+
+'''
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../Agenda.adoc[Pain Points 🔼]
+| &nbsp;
+|===
