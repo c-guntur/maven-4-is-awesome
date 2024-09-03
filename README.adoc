@@ -17,3 +17,7 @@ image::maven4/assets/images/ApacheMavenMascot.png[Apache Maven Mascot, 500, alig
 endif::[]
 
 Demo of some key differences between *Apache Maven 3.9.6* and *Apache Maven 4.0.0-beta-3*.
+
+*Apache Maven 3.x* (tested with v3.9.6): link:maven3/README.adoc[Maven 3 Example]
+
+*Apache Maven 4.x* (tested with v4.0.0-beta-3): link:maven4/README.adoc[Maven 4 Example]
