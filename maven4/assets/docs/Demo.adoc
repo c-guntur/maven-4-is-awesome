@@ -1,4 +1,4 @@
-= A few demos with Apache Maven 3.x and 4.x
+= Other changes - Apache Maven 3.x versus 4.x
 
 == 1. Build an aggregator and its child modules
 Build `child3`, `child31` and `child32` +

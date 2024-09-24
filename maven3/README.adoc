@@ -16,7 +16,8 @@ ifndef::env-github[]
 image::assets/images/ApacheMavenMascot.png[Apache Maven Mascot, 500, align=center]
 endif::[]
 
-Demo of some key differences between *Apache Maven 3.9.6* and *Apache Maven 4.0.0-beta-3*.
+Demo of some key differences between *Apache Maven 3.9.6* and *Apache Maven 4.0.0-beta-3* +
+from an *Apache Maven User* POV.
 
 '''
 
@@ -24,5 +25,5 @@ Demo of some key differences between *Apache Maven 3.9.6* and *Apache Maven 4.0.
 |===
 | About: link:assets/docs/AboutChandraGuntur.adoc[◀️ Chandra Guntur]
 | link:assets/docs/ProjectStructure.adoc[Project Structure 🔼]
-| link:Agenda.adoc[Agenda ▶️]
+| link:PainPoints.adoc[Pain Points ▶️]
 |===

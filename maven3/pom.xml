@@ -58,10 +58,10 @@
                 </plugin>
                 <!--        NOTE: 4. Try commenting out the maven compiler plugin-->
                 <!--              and run a maven build-->
-                <!--        <plugin>-->
-                <!--          <artifactId>maven-compiler-plugin</artifactId>-->
-                <!--          <version>3.13.0</version>-->
-                <!--        </plugin>-->
+                <plugin>
+                  <artifactId>maven-compiler-plugin</artifactId>
+                  <version>3.13.0</version>
+                </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.3.0</version>

@@ -4,7 +4,7 @@
 image::../images/CVG_Mugshot.png[Chandra Guntur, 150, float="right", align="center"]
 === 🔸 Java Champion
 === 🔸 Programming in Java since 1998
-=== 🔸 _Apache Maven user and later contributor_ since 2004
+=== 🔸 _Apache Maven user and contributor_
 === 🔸 JUG Leader link:https://twitter.com/GardenStateJUG[@GardenStateJUG] and link:https://twitter.com/nyjavasig[@NYJavaSIG]
 image::../images/CVG_Caricature.png[Chandra Guntur, 150, float="right", align="center"]
 === 🔸 Ardent blogger and tweeter
