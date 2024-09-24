@@ -3,6 +3,8 @@
 
 - Apache Maven has no “bom” packaging.
 
+- See Issue link:https://issues.apache.org/jira/browse/MNG-7920[MNG-7920]
+
 '''
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]

@@ -19,7 +19,7 @@
     </properties>
 
     <modules>
-        <module>child0</module>
+<!--        <module>bom</module>-->
         <module>child1</module>
         <module>child2</module>
         <module>child3</module>

@@ -4,33 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>none.cgutils</groupId>
-        <artifactId>root</artifactId>
-        <version>${revision}</version>
-    </parent>
+    <!-- NOTE 5: Does not have a parent! -->
+    <groupId>none.cgutils</groupId>
+    <artifactId>bom</artifactId>
+    <packaging>pom</packaging>
+    <version>3.0.0-bom</version>
 
-    <artifactId>child0</artifactId>
-    <name>child0</name>
+    <name>Bill of Materials</name>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>17</maven.compiler.release>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>none.cgutils</groupId>
+                <artifactId>child31</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>none.cgutils</groupId>
+                <artifactId>child32</artifactId>
+                <version>${revision}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>com.outbrain.swinfra</groupId>
                 <artifactId>ci-friendly-flatten-maven-plugin</artifactId>
+                <version>1.0.27</version>
                 <executions>
                     <execution>
                         <goals>
