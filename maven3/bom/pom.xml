@@ -8,9 +8,10 @@
     <groupId>none.cgutils</groupId>
     <artifactId>bom</artifactId>
     <packaging>pom</packaging>
-    <version>3.0.0-bom</version>
+    <version>${revision}</version>
 
-    <name>Bill of Materials</name>
+    <name>bom</name>
+    <description>Bill of Materials</description>
 
     <dependencyManagement>
         <dependencies>
