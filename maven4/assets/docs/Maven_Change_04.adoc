@@ -1,4 +1,4 @@
-= Demo 4
+= Change 4
 
 == Build module plus #dependents# outside of current scope
 
@@ -18,7 +18,7 @@ image::../images/Demo04.png[Maven Project, 300, float="right", align="center"]
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| link:03_Demo.adoc[◀️ Demo 3]
-| link:Demo.adoc[All Demos 🔼]
+| link:Maven_Change_03.adoc[◀️ Change 3]
+| link:OtherChanges.adoc[All Changes 🔼]
 | link:../../Outcome.adoc[Outcome ▶️]
 |===

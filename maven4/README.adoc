@@ -26,5 +26,5 @@ from an *Apache Maven User* POV.
 | About: link:assets/docs/AboutChandraGuntur.adoc[◀️ Chandra Guntur]
 | link:assets/docs/ProjectStructure.adoc[Project Structure 🔼]
 | link:Outcome.adoc[Outcome ▶️] +
-link:assets/docs/Demo.adoc[All Demos ▶️]
+link:assets/docs/OtherChanges.adoc[Other Changes ▶️]
 |===

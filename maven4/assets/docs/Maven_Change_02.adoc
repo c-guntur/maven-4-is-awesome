@@ -1,4 +1,4 @@
-= Demo 2
+= Change 2
 
 == Build an aggregator and not its child modules
 
@@ -18,7 +18,7 @@ image::../images/Demo02.png[Maven Project, 300, float="right", align="center"]
 
 [caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
 |===
-| link:01_Demo.adoc[◀️ Demo 1]
-| link:Demo.adoc[All Demos 🔼]
-| link:03_Demo.adoc[Demo 3 ▶️]
+| link:Maven_Change_01.adoc[◀️ Change 1]
+| link:OtherChanges.adoc[All Changes 🔼]
+| link:Maven_Change_03.adoc[Change 3 ▶️]
 |===
