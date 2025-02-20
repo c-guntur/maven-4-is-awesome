@@ -1,0 +1,29 @@
+== About the speaker(s?)
+:figure-caption!:
+
+image::../images/Gunter.png[Egg Hunter, 150, 150, float="left", align="center"]
+image::../images/CVG_Mugshot.png[Chandra Guntur, 150, 150, float="right", align="center"]
+
+|===
+|Who Is |Who Is
+
+| Gunt`` e ``r
+| Chandra Gunt`` u ``r
+
+| is a person who hunts for Halliday's egg.
+| is a person who generally does not eat eggs.
+
+| can "make the climb to ninety-nine".
+| will probably lose his breath by five.
+
+|Gunter is a truncated nickname of eg**G** h**UNTER**.
+|Guntur is a full-name of a city in India.
+
+|===
+
+[caption=" ", .center, cols="<40%, ^20%, >40%", width=95%, grid=none, frame=none]
+|===
+| &nbsp;
+| link:../../README.adoc[README 🔼]
+| &nbsp;
+|===

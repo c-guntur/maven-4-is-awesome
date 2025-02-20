@@ -19,7 +19,7 @@ image::../images/CVG_Caricature.png[Chandra Guntur, 150, float="right", align="c
 |===
 | &nbsp;
 | link:../../README.adoc[README 🔼]
-| &nbsp;
+| link:LOL.adoc[LOLz ▶️]
 |===
 
 
