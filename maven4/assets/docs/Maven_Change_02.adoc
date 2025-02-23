@@ -13,6 +13,7 @@ image::../images/Demo02.png[Maven Project, 300, float="right", align="center"]
 === Maven 4
 
   mvn clean compile -pl child3 -N
+  mvn clean compile -pl child3 --non-recursive
 
 '''
 

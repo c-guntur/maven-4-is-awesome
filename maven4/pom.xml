@@ -18,12 +18,12 @@
     <revision>4.0.0-SNAPSHOT</revision>
   </properties>
 
-  <modules>
-    <module>bom</module>
-    <module>child1</module>
-    <module>child2</module>
-    <module>child3</module>
-  </modules>
+  <subprojects>
+    <subproject>bom</subproject>
+    <subproject>child1</subproject>
+    <subproject>child2</subproject>
+    <subproject>child3</subproject>
+  </subprojects>
 
   <dependencyManagement>
     <dependencies>

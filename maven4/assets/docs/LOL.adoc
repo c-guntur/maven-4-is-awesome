@@ -11,7 +11,7 @@ image::../images/CVG_Mugshot.png[Chandra Guntur, 150, 150, float="right", align=
 | Chandra Gunt`` u ``r
 
 | is a person who hunts for Halliday's egg.
-| is a person who generally does not eat eggs.
+| is a person who does not eat eggs.
 
 | can "make the climb to ninety-nine".
 | will probably lose his breath by five.

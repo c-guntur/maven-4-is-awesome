@@ -13,6 +13,7 @@ image::../images/Demo04.png[Maven Project, 300, float="right", align="center"]
 === Maven 4
 
   cd child1 && mvn compile -amd
+  cd child1 && mvn compile --also-make-dependents
 
 '''
 

@@ -13,6 +13,7 @@ image::../images/Demo03.png[Maven Project, 300, float="right", align="center"]
 === Maven 4
 
   cd child3/child32 && mvn compile -am
+  cd child3/child32 && mvn compile --also-make
 
 '''
 
