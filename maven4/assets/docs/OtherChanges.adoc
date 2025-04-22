@@ -1,18 +1,18 @@
 = Other changes - Apache Maven 3.x versus 4.x
 
-== 1. Build an aggregator and its child modules
+=== 1. Build an aggregator and its child modules
 Build `child3`, `child31` and `child32` +
 Link: link:Maven_Change_01.adoc[Change 1]
 
-== 2. Build an aggregator and not its child modules
+=== 2. Build an aggregator and not its child modules
 Build only `child3` +
 Link: link:Maven_Change_02.adoc[Change 2]
 
-== 3. Build module plus #dependencies# outside of current scope
+=== 3. Build module plus #dependencies# outside of current scope
 Build `child32`, `child3`, `child2`, `child1`, `root` +
 Link: link:Maven_Change_03.adoc[Change 3]
 
-== 4. Build module plus #dependents# outside of current scope
+=== 4. Build module plus #dependents# outside of current scope
 Build `child1`, `child2`, `child32` +
 Link: link:Maven_Change_04.adoc[Change 4]
 

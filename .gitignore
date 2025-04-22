@@ -1,0 +1,3 @@
+**/.ci-friendly-pom.xml
+**/target/**/*
+**/.idea/**/*

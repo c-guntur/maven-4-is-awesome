@@ -7,13 +7,13 @@
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img width="870" src="../images/MavenMultimodule.png">
+  <img width="1024" src="../images/MavenMultimodule.png">
 </p>
 ++++
 endif::[]
 
 ifndef::env-github[]
-image::../images/MavenMultimodule.png[Apache Maven Mascot, 870, align=center]
+image::../images/MavenMultimodule.png[Maven Project Hierarchy, 1024, align=center]
 endif::[]
 
 '''
