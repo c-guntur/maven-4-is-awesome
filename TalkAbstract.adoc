@@ -1,0 +1,33 @@
+[.text-center]
+= From Version Pains to Happy Builds: Maven 4 Features You’ll Wish You Had Sooner
+
+== Abstract
+Apache Maven 3 has powered Java builds for years, but anyone wrangling multi-module projects knows the pain: scattered version management, plugin drift, sibling module dependency headaches, and no clear separation between what you build and what consumers should use. This repo-backed, demo-driven talk shows how Apache Maven 4 fixes those day‑to‑day frustrations with pragmatic, developer‑first improvements.
+
+We’ll start by revisiting five common Maven 3 pain points drawn from this project’s examples, then map each directly to its Maven 4 solution: simplified and implicit version handling, automatic consumer vs. build POM separation, sibling module version inference, loud warnings for undeclared plugin versions, and first‑class BOM packaging. Along the way, we’ll use side‑by‑side commands and project layouts from this repo to highlight exactly what changes—and what just gets easier.
+
+By the end, you’ll know how to migrate confidently, what wins you can bank immediately, and which habits to update to get the most out of Maven 4 in real projects.
+
+== Who is this for?
+- Java engineers and build owners maintaining multi‑module Maven projects
+- Tech leads standardizing builds across teams
+- DevEx/Platform engineers responsible for reproducible pipelines
+
+== What you’ll learn (and be able to do Monday)
+- Tame version sprawl with Maven 4’s improved version semantics
+- Rely on automatically generated consumer POMs without leaking build internals
+- Let sibling module dependency versions “just work” when they should
+- Eliminate “plugin roulette” with explicit plugin versions and Maven 4 warnings
+- Publish and consume BOMs using native packaging—no more workarounds
+- Translate Maven 3 commands to Maven 4 equivalents with confidence
+
+== Live Demos and Artifacts
+This talk is based on and uses:
+- Maven 3 pain points: maven3/ and assets/docs/Maven3_PainPoint*.adoc
+- Maven 4 improvements walkthrough: maven4/ and assets/docs/Maven_Change_*.adoc, Outcome.adoc
+- Project structures, commands, and before/after comparisons baked into this repo
+
+== Speaker Notes (optional)
+- Open with a real multi‑module versioning story (version drift → broken releases)
+- Show one‑file diff between Maven 3 and 4 workflows for child3 builds
+- Close with a checklist to adopt Maven 4 incrementally in existing projects

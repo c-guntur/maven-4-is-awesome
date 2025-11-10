@@ -6,10 +6,10 @@
 - Building an artifact produces a .pom file which contains irrelevant info +
 &nbsp;
 
-- Once again both third party plugins come in handy: +
+- Once again a third party plugin comes in handy: +
 *Codehaus* : _flatten-maven-plugin_ +
 
-- See Issue: link:https://issues.apache.org/jira/browse/MNG-7880[MnG-7880]
+- See Issue: link:https://issues.apache.org/jira/browse/MNG-7880[MNG-7880]
 
 '''
 
