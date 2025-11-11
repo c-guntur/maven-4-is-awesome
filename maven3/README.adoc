@@ -16,7 +16,7 @@ ifndef::env-github[]
 image::assets/images/ApacheMavenMascot.png[Apache Maven Mascot, 500, align=center]
 endif::[]
 
-Demo of some key differences between *Apache Maven 3.9.9* and *Apache Maven 4.0.0-rc-2* as an *Apache Maven User*.
+Demo of some key differences between *Apache Maven 3.9.11* and *Apache Maven 4.0.0-rc-4* as an *Apache Maven User*.
 
 ==== Link to content: link:https://github.com/c-guntur/maven-4-is-awesome[https://github.com/c-guntur/maven-4-is-awesome]
 '''
@@ -27,3 +27,8 @@ Demo of some key differences between *Apache Maven 3.9.9* and *Apache Maven 4.0.
 | link:assets/docs/ProjectStructure.adoc[Project Structure 🔼]
 | link:PainPoints.adoc[Pain Points ▶️]
 |===
+
+'''
+
+[.text-center]
+~Opinions&nbsp;are&nbsp;personal&nbsp;and&nbsp;do&nbsp;not&nbsp;represent&nbsp;views&nbsp;or&nbsp;opinions&nbsp;of&nbsp;my&nbsp;employer.~

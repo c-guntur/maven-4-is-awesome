@@ -13,7 +13,7 @@ By the end, you’ll know how to migrate confidently, what wins you can bank imm
 - Tech leads standardizing builds across teams
 - DevEx/Platform engineers responsible for reproducible pipelines
 
-== What you’ll learn (and be able to do Monday)
+== What you’ll learn (and be able to do right after)
 - Tame version sprawl with Maven 4’s improved version semantics
 - Rely on automatically generated consumer POMs without leaking build internals
 - Let sibling module dependency versions “just work” when they should
@@ -31,3 +31,8 @@ This talk is based on and uses:
 - Open with a real multi‑module versioning story (version drift → broken releases)
 - Show one‑file diff between Maven 3 and 4 workflows for child3 builds
 - Close with a checklist to adopt Maven 4 incrementally in existing projects
+
+'''
+
+[.text-center]
+~Opinions&nbsp;are&nbsp;personal&nbsp;and&nbsp;do&nbsp;not&nbsp;represent&nbsp;views&nbsp;or&nbsp;opinions&nbsp;of&nbsp;my&nbsp;employer.~

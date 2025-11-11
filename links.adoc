@@ -1,0 +1,73 @@
+= Links
+Some links to peruse
+
+The Apache Maven site is a treasure trove of documentation. Below are a few picked links that are usually of interest to beginners and current users of Maven:
+
+*Maven Documentation*: link:https://maven.apache.org/guides/index.html[]
+
+== Maven 3
+
+Maven 3 *Project Model*: link:https://maven.apache.org/ref/3.9.11/maven-model/maven.html[]
+
+Maven *4.0.0 Schema*: link:https://maven.apache.org/xsd/maven-4.0.0.xsd[]
+
+Maven 3 *Super POM*: link:https://maven.apache.org/ref/3.9.11/maven-model-builder/super-pom.html[]
+
+Maven 3 *Lifecycle*: link:https://maven.apache.org/ref/3.9.11/maven-core/lifecycles.html[]
+
+Maven 3 *Plugin bindings*: link:https://maven.apache.org/ref/3.9.11/maven-core/default-bindings.html[]
+
+Maven 3 *CLI Options*: link:https://maven.apache.org/ref/3.9.11/maven-embedder/cli.html[]
+
+== Maven 4
+
+Maven *4.1.0 Schema*: link:https://maven.apache.org/xsd/maven-4.1.0.xsd[]
+
+Maven 4.x *Build POM*: link:https://maven.apache.org/components/studies/consumer-pom/maven.html[]
+
+Maven 4.x *Consumer POM*: link:https://maven.apache.org/components/studies/consumer-pom/maven-consumer.html[]
+
+== Build Plans
+
+A Maven 3.x plugin to inspect the lifecycle of your project.
+
+Goals Overview
+The BuildPlan plugin has four goals:
+
+* `*buildplan:list*` displays plugin executions within a Maven project.
+* `*buildplan:list-phase*` displays plugin executions within lifecycle phases.
+* `*buildplan:list-plugin*` displays plugin executions by plugin.
+* `*buildplan:report*` Creates a nicely formatted report in html format.
+
+Build Plans: link:https://www.mojohaus.org/buildplan-maven-plugin/plugin-info.html[]
+
+== Maven Daemon
+
+The Maven Daemon (mvnd) is a daemon infrastructure for Maven that helps to reduce the build time by:
+
+=== Actions
+* Keeping the JVM running between builds
+* Managing a pool of Maven processes
+* Reusing the JVM and Maven processes across builds
+
+=== Features
+* Significantly faster builds compared to regular Maven
+* Compatible with existing Maven plugins and extensions
+* Daemon process management
+* Intelligent memory management
+* Native executable available
+
+*Maven Daemon*: link:https://maven.apache.org/tools/mvnd.html[]
+
+== Maven Wrapper
+
+If you want to ensure that a project is always built with a certain Maven version or JDK, you can either define rules using the Maven enforcer plugin. But this leaves the user alone with an error message when the user's environment does not match the requirements. With the Maven Wrapper you not only ensure the correct versions but also provide the possibility to automatically download them so a project is fully encapsulated from the user's environment.
+
+One tool - three parts:
+
+* The *Maven Wrapper Plugin* to set up and run the Maven Wrapper. link:https://maven.apache.org/wrapper/maven-wrapper-plugin/[]
+* The *Maven Wrapper JAR* which downloads the desired versions. link:https://maven.apache.org/wrapper/maven-wrapper/index.html[]
+* The *Maven Wrapper Distribution* provides everything that has to be installed into a project wanting to use Maven Wrapper. link:https://maven.apache.org/wrapper/maven-wrapper-distribution/index.html[]
+
+*Maven Wrapper*: link:https://maven.apache.org/tools/wrapper/index.html[]
+
